@@ -34,5 +34,4 @@ while True:
 
         translation = translator.translate(inputvalue, dest=key_list[position])
         window['-TEXT-'].update(translation.text)
-
-    
+  
